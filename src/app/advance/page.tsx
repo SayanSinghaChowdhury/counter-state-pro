@@ -9,7 +9,7 @@ import {
 const page = () => {
 	return (
 		<section className="grid h-[90dvh] place-items-center">
-			<Card className="w-3xs">
+			<Card>
 				<CardHeader>
 					<CardTitle className="text-center text-2xl font-semibold">
 						Advance Counter
