@@ -1,6 +1,7 @@
 "use client";
 
 import { CircleMinus, CirclePlus } from "lucide-react";
+
 import { useState } from "react";
 import { Button } from "./shadcnui/button";
 
@@ -25,13 +26,13 @@ const BasicCounter = () => {
 					onClick={minus}
 					variant={"destructive"}
 					className="cursor-pointer">
-					<CircleMinus /> Minus
+					<CircleMinus /> Minus 1
 				</Button>
 
 				<Button
 					onClick={plus}
 					className="cursor-pointer">
-					<CirclePlus /> Plus
+					<CirclePlus /> Plus 1
 				</Button>
 			</div>
 		</div>
