@@ -11,6 +11,7 @@ const ExpertCounter = () => {
 			setcounter(counter + 1);
 		}
 	};
+
 	const plusTen = () => {
 		if (counter <= 91) {
 			setcounter(counter + 10);
@@ -22,11 +23,13 @@ const ExpertCounter = () => {
 			setcounter(counter - 1);
 		}
 	};
+
 	const minusTen = () => {
 		if (counter > 9) {
 			setcounter(counter - 10);
 		}
 	};
+
 	return (
 		<>
 			<div className="grid place-items-center gap-4">
