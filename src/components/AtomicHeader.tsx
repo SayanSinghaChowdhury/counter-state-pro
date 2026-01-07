@@ -1,8 +1,14 @@
+"use client";
+
+import { CounterAtoms } from "@/lib/atoms";
+import { useAtomValue } from "jotai";
+
 const AtomicHeader = () => {
+	const count = useAtomValue(CounterAtoms);
 	return (
 		<>
 			<h1 className="text-center text-lg">
-				Counter Value: <span className="font-semibold">{0}</span>
+				Counter Value: <span className="font-semibold">{count}</span>
 			</h1>
 		</>
 	);

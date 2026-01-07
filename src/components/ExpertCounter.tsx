@@ -13,7 +13,7 @@ const ExpertCounter = () => {
 	};
 
 	const plusTen = () => {
-		if (counter <= 91) {
+		if (counter <= 90) {
 			setcounter(counter + 10);
 		}
 	};
