@@ -1,18 +1,17 @@
 "use client";
 
-import { CircleMinus, CirclePlus } from "lucide-react";
-
+import { CircleMinusIcon, CirclePlusIcon } from "lucide-react";
 import { useState } from "react";
 import { Button } from "./shadcnui/button";
 
 const BasicCounter = () => {
-	const [counter, setcounter] = useState(0);
+	const [counter, setCounter] = useState(0);
 
 	const plus = () => {
-		setcounter(counter + 1);
+		setCounter(counter + 1);
 	};
 	const minus = () => {
-		setcounter(counter - 1);
+		setCounter(counter - 1);
 	};
 
 	return (
@@ -26,13 +25,13 @@ const BasicCounter = () => {
 					onClick={minus}
 					variant={"destructive"}
 					className="cursor-pointer">
-					<CircleMinus /> Minus 1
+					<CircleMinusIcon /> Minus 1
 				</Button>
 
 				<Button
 					onClick={plus}
 					className="cursor-pointer">
-					<CirclePlus /> Plus 1
+					<CirclePlusIcon /> Plus 1
 				</Button>
 			</div>
 		</div>
