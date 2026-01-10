@@ -11,7 +11,7 @@ const Header = () => {
 					<h1
 						className="text-2xl font-semibold"
 						aria-label="App Name">
-						counter state pro
+						Counter State Pro
 					</h1>
 				</Link>
 

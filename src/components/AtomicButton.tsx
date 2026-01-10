@@ -1,12 +1,13 @@
 "use client";
 
-import { CounterAtoms } from "@/lib/atoms";
+import { counterAtoms } from "@/lib/atoms";
 import { useAtom } from "jotai";
 import { CircleMinusIcon, CirclePlusIcon } from "lucide-react";
 import { Button } from "./shadcnui/button";
 
 const AtomicButton = () => {
-	const [count, setCount] = useAtom(CounterAtoms);
+	const [count, setCount] = useAtom(counterAtoms);
+
 	const plus = () => {
 		if (count < 100) {
 			setCount(count + 1);

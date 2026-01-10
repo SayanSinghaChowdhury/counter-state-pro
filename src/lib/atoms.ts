@@ -1,3 +1,3 @@
 import { atom } from "jotai";
 
-export const CounterAtoms = atom(0);
+export const counterAtoms = atom(0);

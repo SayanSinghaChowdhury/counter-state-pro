@@ -6,6 +6,12 @@ import {
 	CardHeader,
 	CardTitle,
 } from "@/components/shadcnui/card";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+	title: "Atom | Counter State App",
+	description: "Atom Counter State App",
+};
 
 const page = () => {
 	return (

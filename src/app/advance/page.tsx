@@ -5,6 +5,12 @@ import {
 	CardHeader,
 	CardTitle,
 } from "@/components/shadcnui/card";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+	title: "Advance | Counter State App",
+	description: "Advance Counter State App",
+};
 
 const page = () => {
 	return (
